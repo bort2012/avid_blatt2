@@ -1,0 +1,60 @@
+package src;
+
+import java.util.List;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+import javax.persistence.PersistenceContext;
+
+import de.uniulm.avid.roary.RoarMgmBeanLocal;
+import de.uniulm.avid.roary.entities.Roar;
+import de.uniulm.avid.roary.exceptions.FeedNotFoundException;
+import de.uniulm.avid.roary.exceptions.RoarNotFoundException;
+
+/**
+ * Session Bean implementation class RoarMgmBean
+ */
+@Stateless
+@LocalBean
+public class RoarMgmBean implements RoarMgmBeanLocal {
+
+	
+	@PersistenceContext(unitName="roarHistory")
+    /**
+     * Default constructor. 
+     */
+    public RoarMgmBean() {
+        // TODO Auto-generated constructor stub
+    }
+
+	@Override
+	public void addRoar(String auth, String txt, int feedId) throws FeedNotFoundException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Roar getRoar(int roarId) throws RoarNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateRoar(int roarId, String roarText) throws RoarNotFoundException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteRoar(int roarId) throws RoarNotFoundException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Roar> getAllRoars(int feedId) throws FeedNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
