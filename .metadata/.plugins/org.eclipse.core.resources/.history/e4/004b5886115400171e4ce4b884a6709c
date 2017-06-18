@@ -1,0 +1,12 @@
+package de.uniulm.avid.roary.entities;
+
+import java.util.Date;
+
+public class Roar {
+
+	protected int id;
+	protected String text;
+	protected String author;
+	protected Date  creationDate;
+	
+}

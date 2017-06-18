@@ -1,0 +1,5 @@
+package de.uniulm.avid.roary.entities;
+
+public class Roar {
+
+}

@@ -1,0 +1,10 @@
+package de.uniulm.avid.roary.entities;
+
+public class Roar {
+
+	protected int id;
+	protected String text;
+	protected String author;
+	protected Date creationDate;
+	
+}
