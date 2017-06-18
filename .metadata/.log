@@ -129,3 +129,9 @@ java.lang.NegativeArraySizeException
 
 !ENTRY org.eclipse.jface.text 2 0 2017-06-18 13:07:26.554
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-18 13:34:55.679
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-18 13:34:55.679
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
