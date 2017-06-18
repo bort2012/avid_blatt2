@@ -59,5 +59,10 @@ public class RoarMgmBean implements RoarMgmBeanLocal {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	public List<Roar> getAllRoars() throws FeedNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
